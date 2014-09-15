@@ -13,6 +13,51 @@
   <body>
     <h1>tachyons background size</h1>
     <h2>Examples</h2>
+
+  .bg-cv  {               background-size: cover; }
+  .bg-cn  {               background-size: contain; }
+  .bg-auto {              background-size: auto; }
+  .bg-cv-ns {             background-size: cover; }
+  .bg-cn-ns {             background-size: contain; }
+  .bg-auto-ns {           background-size: auto; }
+  .bg-cv-m {              background-size: cover; }
+  .bg-cn-m {              background-size: contain; }
+  .bg-auto-m {            background-size: auto; }
+  .bg-cv-l {              background-size: cover; }
+  .bg-cn-l {              background-size: contain; }
+  .bg-auto-l {            background-size: auto; }
+    <pre>
+<code>
+/*
+
+   BACKGROUND SIZE
+
+*/
+
+  .bg-cv  {               background-size: cover; }
+  .bg-cn  {               background-size: contain; }
+  .bg-auto {              background-size: auto; }
+
+@include break(not-small) {
+  .bg-cv-ns {             background-size: cover; }
+  .bg-cn-ns {             background-size: contain; }
+  .bg-auto-ns {           background-size: auto; }
+}
+
+@include break(medium) {
+  .bg-cv-m {              background-size: cover; }
+  .bg-cn-m {              background-size: contain; }
+  .bg-auto-m {            background-size: auto; }
+}
+
+@include break(large) {
+  .bg-cv-l {              background-size: cover; }
+  .bg-cn-l {              background-size: contain; }
+  .bg-auto-l {            background-size: auto; }
+}
+
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-background-size" title="tachyons-background-size">View package on npm</a>
   </body>
 </html>
