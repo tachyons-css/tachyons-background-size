@@ -4,7 +4,7 @@ Work In Progress. Pull requests and open issues welcome.
 
 ## Install
 ```
-npm install --save-dev tachyons-background-size.
+npm install --save-dev tachyons-background-size
 ```
 or download the css on github and include in your project.
 
