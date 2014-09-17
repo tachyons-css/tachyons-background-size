@@ -8,6 +8,38 @@ npm install --save-dev tachyons-background-size
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   BACKGROUND SIZE
+
+*/
+
+  .bg-cv  {               background-size: cover; }
+  .bg-cn  {               background-size: contain; }
+  .bg-auto {              background-size: auto; }
+
+@include break(not-small) {
+  .bg-cv-ns {             background-size: cover; }
+  .bg-cn-ns {             background-size: contain; }
+  .bg-auto-ns {           background-size: auto; }
+}
+
+@include break(medium) {
+  .bg-cv-m {              background-size: cover; }
+  .bg-cn-m {              background-size: contain; }
+  .bg-auto-m {            background-size: auto; }
+}
+
+@include break(large) {
+  .bg-cv-l {              background-size: cover; }
+  .bg-cn-l {              background-size: contain; }
+  .bg-auto-l {            background-size: auto; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
