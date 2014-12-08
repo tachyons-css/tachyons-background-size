@@ -1,7 +1,6 @@
 {
   "name": "tachyons-background-size",
   "version": "0.4.2",
-  "style": "background_size.css"
   "style": "background_size.css",
   "homepage": "http://mrmrs.io/tachyons-background-size",
   "description": "Performance based sass module.",
@@ -38,6 +37,6 @@
     "gulp-watch": "^2.0.0"
   },
   "scripts": {
-    "start" : "gulp"
+    "start": "gulp"
   }
 }
