@@ -2,7 +2,7 @@
   "name": "tachyons-background-size",
   "version": "1.0.0",
   "style": "tachyons-background-size.css",
-  "homepage": "http://mrmrs.io/tachyons-background-size",
+  "homepage": "http://github.com/mrmrs/tachyons-background-size",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
