@@ -1,6 +1,6 @@
 {
   "name": "tachyons-background-size",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "style": "tachyons-background-size.css",
   "homepage": "http://github.com/mrmrs/tachyons-background-size",
   "description": "Performance based css module.",
