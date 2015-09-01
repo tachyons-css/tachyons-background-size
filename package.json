@@ -1,6 +1,6 @@
 {
   "name": "tachyons-background-size",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "style": "tachyons-background-size.css",
   "homepage": "http://github.com/mrmrs/tachyons-background-size",
   "description": "CSS module of mobile-first single purpose classes for setting background-size on elements.",
