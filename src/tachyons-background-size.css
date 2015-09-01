@@ -10,8 +10,8 @@
     bg = background-size
 
    Modifiers:
-    cv = cover
-    cn = contain
+    -cv = cover
+    -cn = contain
 
    Media Query Extensions:
      -ns = not-small
