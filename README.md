@@ -1,47 +1,55 @@
-# TACHYONS-BACKGROUND-SIZE
+# tachyons-background-size
+2.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+CSS module of mobile-first single purpose classes for setting background-size on elements.
 
 ## Install
 ```
 npm install --save-dev tachyons-background-size
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-background-size
+```
 
 ## The Code
 ```
-@custom-media --breakpoint-not-small screen and (max-width: 48em);
-@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
-@custom-media --breakpoint-large screen and (min-width: 64em);
-
 /*
 
    BACKGROUND SIZE
+
+   Base:
+    bg = background-size
+
+   Modifiers:
+    -cv = cover
+    -cn = contain
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
   .bg-cv  {               background-size: cover; }
   .bg-cn  {               background-size: contain; }
-  .bg-auto {              background-size: auto; }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 48em) {
   .bg-cv-ns {             background-size: cover; }
   .bg-cn-ns {             background-size: contain; }
-  .bg-auto-ns {           background-size: auto; }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .bg-cv-m {              background-size: cover; }
   .bg-cn-m {              background-size: contain; }
-  .bg-auto-m {            background-size: auto; }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 64em) {
   .bg-cv-l {              background-size: cover; }
   .bg-cn-l {              background-size: contain; }
-  .bg-auto-l {            background-size: auto; }
 }
 
 ```

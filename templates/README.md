@@ -1,4 +1,5 @@
 # <%= module.name %>
+<%= module.version %>
 
 <%= module.description %>
 
