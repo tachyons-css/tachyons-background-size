@@ -1,49 +1,21 @@
-# TACHYONS-BACKGROUND-SIZE
+# <%= module.name %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-background-size
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-@custom-media --breakpoint-not-small screen and (max-width: 48em);
-@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
-@custom-media --breakpoint-large screen and (min-width: 64em);
-
-/*
-
-   BACKGROUND SIZE
-
-*/
-
-  .bg-cv  {               background-size: cover; }
-  .bg-cn  {               background-size: contain; }
-  .bg-auto {              background-size: auto; }
-
-@media (--breakpoint-not-small) {
-  .bg-cv-ns {             background-size: cover; }
-  .bg-cn-ns {             background-size: contain; }
-  .bg-auto-ns {           background-size: auto; }
-}
-
-@media (--breakpoint-medium) {
-  .bg-cv-m {              background-size: cover; }
-  .bg-cn-m {              background-size: contain; }
-  .bg-auto-m {            background-size: auto; }
-}
-
-@media (--breakpoint-large) {
-  .bg-cv-l {              background-size: cover; }
-  .bg-cn-l {              background-size: contain; }
-  .bg-auto-l {            background-size: auto; }
-}
-
+<%= srcCSS %>
 ```
 
 ## Author
