@@ -1,4 +1,4 @@
-# tachyons-background-size 2.1.0
+# tachyons-background-size 3.0.1
 
 Background size CSS module for Tachyons
 
