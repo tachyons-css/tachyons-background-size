@@ -1,10 +1,10 @@
-# tachyons-background-size 3.0.1
+# tachyons-background-size 3.0.3
 
 Background size CSS module for Tachyons
 
 #### Stats
 
-253 | 8 | 8
+310 | 8 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -72,6 +72,10 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
      -m  = medium
      -l  = large
 
+*/
+/*
+  Often used in combination with background image set as an inline style
+  on an html element.
 */
 .bg-cv { background-size: cover; }
 .bg-cn { background-size: contain; }

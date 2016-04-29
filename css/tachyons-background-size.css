@@ -15,6 +15,10 @@
      -l  = large
 
 */
+/*
+  Often used in combination with background image set as an inline style
+  on an html element.
+*/
 .bg-cv { background-size: cover; }
 .bg-cn { background-size: contain; }
 @media screen and (min-width: 48em) {
