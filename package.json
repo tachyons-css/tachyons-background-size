@@ -36,6 +36,6 @@
   },
   "tachyonsModule": {
     "category": "theming",
-    "isCore": "true"
+    "isCore": true
   }
 }
