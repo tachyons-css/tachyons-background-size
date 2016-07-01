@@ -4,7 +4,7 @@ Background size CSS module for Tachyons
 
 #### Stats
 
-310 | 8 | 8
+279 | 8 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -60,13 +60,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
    BACKGROUND SIZE
 
-   Base:
-    bg = background-size
-
-   Modifiers:
-    -cv = cover
-    -cn = contain
-
    Media Query Extensions:
      -ns = not-small
      -m  = medium
@@ -77,19 +70,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   Often used in combination with background image set as an inline style
   on an html element.
 */
-.bg-cv { background-size: cover; }
-.bg-cn { background-size: contain; }
+.cover { background-size: cover; }
+.contain { background-size: contain; }
 @media screen and (min-width: 48em) {
- .bg-cv-ns { background-size: cover; }
- .bg-cn-ns { background-size: contain; }
+ .cover-ns { background-size: cover; }
+ .contain-ns { background-size: contain; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
- .bg-cv-m { background-size: cover; }
- .bg-cn-m { background-size: contain; }
+ .cover-m { background-size: cover; }
+ .contain-m { background-size: contain; }
 }
 @media screen and (min-width: 64em) {
- .bg-cv-l { background-size: cover; }
- .bg-cn-l { background-size: contain; }
+ .cover-l { background-size: cover; }
+ .contain-l { background-size: contain; }
 }
 ```
 
