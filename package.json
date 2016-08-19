@@ -20,7 +20,7 @@
     "background-size"
   ],
   "repository": "tachyons-css/tachyons-background-size",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "tachyons-cli": "^0.6.1",
