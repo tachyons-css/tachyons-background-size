@@ -90,15 +90,15 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 */
 .cover { background-size: cover; }
 .contain { background-size: contain; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .cover-ns { background-size: cover; }
  .contain-ns { background-size: contain; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .cover-m { background-size: cover; }
  .contain-m { background-size: contain; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .cover-l { background-size: cover; }
  .contain-l { background-size: contain; }
 }
