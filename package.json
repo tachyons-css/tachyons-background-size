@@ -8,6 +8,7 @@
     "url": "http://mrmrs.cc"
   },
   "style": "src/tachyons-background-size.css",
+  "main": "src/tachyons-background-size.css",
   "files": [
     "src",
     "css"
